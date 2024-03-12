@@ -1,0 +1,66 @@
+body{
+
+    background-color: rgb(73, 71, 71);
+
+    
+}
+
+.container {
+    background-color: gray;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 10px;
+    padding: 10px;
+    width: 100%;
+    height: 100%;
+    
+    border: 3px solid #353434;
+}
+h1{
+    font-size: x-large;
+    border: 3px solid #030303;}
+.descricao{
+    padding: 4px;
+    width: auto;
+    height: 200px;
+    border: 3px solid #353434;
+}
+
+
+.imagem {
+    margin-top: 10px;
+    margin-left: 200px;
+    height: auto;
+
+}
+img{
+    height: 400px;
+}
+.video{
+}
+
+.geral{
+margin: 5%;
+padding: 0;
+display:flex;
+border: 3px solid #353434;
+
+}
+form{
+    margin: 15px auto 30px;
+    background-color: #7e7e7e;
+}
+.form-img{
+    align-items: center;
+    justify-content: center;
+    display:flex;
+    max-width: 2000px;
+    max-height: 200000px;
+}
+
+/* AQUI É PARA CELULAR*/
+@media (min-width: 768px) and (max-width: 1023px){
+    body{
+        background: #f556b3;
+    }
+}
+
